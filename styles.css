@@ -57,10 +57,28 @@ h1, p {
     color: white;
 }
 
-.intro-text {
-    font-size: 50px;
-}
-
 .about {
     background-color: #f5f7fa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30vw;
+    padding-left: 30vw;
+}
+
+.aboutText {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.aboutText p {
+    line-height: 1.8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
