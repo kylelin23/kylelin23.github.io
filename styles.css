@@ -1,9 +1,23 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background: url('assets/blackAndWhite.jpeg');
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid gray;
+    height: 80px;
 }
 
 .nav-list {
@@ -28,4 +42,9 @@
 
 .navbar-link:hover {
     color: blue;
+}
+
+.page-title {
+    font-size: 100px;
+    color: white;
 }
