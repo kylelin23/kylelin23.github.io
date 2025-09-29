@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    background: url('assets/blackAndWhite.jpeg');
+    background: url('assets/aboutImage.jpeg');
     background-size: cover;
     height: calc(100vh - 80px);
     display: flex;
@@ -18,6 +18,10 @@ body {
     padding-right: 50px;
     border-bottom: 1px solid gray;
     height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
 }
 
 .nav-list {
