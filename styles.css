@@ -2,12 +2,17 @@ body {
     margin: 0;
 }
 
+h1, p {
+    margin: 0;
+}
+
 .container {
     background: url('assets/aboutImage.jpeg');
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: calc(85vh - 80px);
     display: flex;
     justify-content: center;
+    padding-top: 15vh;
 }
 
 .navbar {
@@ -20,7 +25,6 @@ body {
     height: 80px;
     position: sticky;
     top: 0;
-    z-index: 1000;
     background-color: white;
 }
 
@@ -51,4 +55,12 @@ body {
 .page-title {
     font-size: 100px;
     color: white;
+}
+
+.intro-text {
+    font-size: 50px;
+}
+
+.about {
+    background-color: #f5f7fa;
 }
