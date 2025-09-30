@@ -37,19 +37,21 @@ h1, p {
 .logo a {
     color: black;
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .logo a:hover {
-    color: red;
+    color: gray;
 }
 
 .navbar-link {
     color: black;
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .navbar-link:hover {
-    color: blue;
+    color: gray;
 }
 
 .page-title {
@@ -73,6 +75,7 @@ h1, p {
 
 .aboutText p {
     line-height: 1.8;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .footer {
@@ -81,4 +84,45 @@ h1, p {
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.project-container {
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    padding: 20px;
+    background-color: white;
+}
+
+.portfolio-page-title {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    background-color: #f5f7fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30vw;
+    padding-left: 30vw;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-name {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.project-description {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.learn-more {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
