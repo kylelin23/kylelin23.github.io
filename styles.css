@@ -13,6 +13,47 @@ h1, p {
     display: flex;
     justify-content: center;
     padding-top: 15vh;
+    background-position: center;
+}
+
+.portfolio-container {
+    background: url('assets/portfolio.jpeg');
+    background-size: cover;
+    height: calc(85vh - 80px);
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    background-position: center;
+}
+
+.resume-container {
+    background: url('assets/resume.jpeg');
+    background-size: cover;
+    height: calc(85vh - 80px);
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    background-position: center;
+}
+
+.blog-container {
+    background: url('assets/blog.jpeg');
+    background-size: cover;
+    height: calc(85vh - 80px);
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    background-position: center;
+}
+
+.contact-container {
+    background: url('assets/contact.jpeg');
+    background-size: cover;
+    height: calc(85vh - 80px);
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    background-position: center;
 }
 
 .navbar {
@@ -96,13 +137,13 @@ h1, p {
     background-color: white;
 }
 
-.portfolio-page-title {
+/* .portfolio-page-title {
     font-size: 100px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 .project {
     display: flex;
