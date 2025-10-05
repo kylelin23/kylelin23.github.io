@@ -221,8 +221,8 @@ h1, p {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
