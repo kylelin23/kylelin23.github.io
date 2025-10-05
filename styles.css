@@ -261,6 +261,7 @@ h1, p {
 
 .school-description {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
 }
 
 .school-name {
@@ -269,4 +270,10 @@ h1, p {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.schools {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
